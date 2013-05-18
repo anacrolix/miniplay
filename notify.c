@@ -4,8 +4,8 @@ static NotifyNotification *notify_ = NULL;
 
 void mp_notify_init()
 {
-	notify_ = notify_notification_new_with_status_icon(
-		"Summary", NULL, "miniplay/play-icon.svg", mp_get_status_icon());
+	notify_ = notify_notification_new(
+		"Summary", NULL, "miniplay/play-icon.svg");
 }
 
 static void

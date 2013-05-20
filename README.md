@@ -6,7 +6,11 @@ I wrote this originally in C sometime in 2009. It creates a system tray icon tha
 Build
 =====
 
-On Ubuntu requires libglib2.0-dev libgtk2.0-dev libgstreamer0.10-dev libnotify-dev.
+On Ubuntu requires libglib2.0-dev libgtk2.0-dev libgstreamer0.10-dev libnotify-dev. Run:
+
+	autoreconf -i
+	./configure
+	make
 
 Operation
 =========
